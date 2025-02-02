@@ -143,6 +143,23 @@
             left: 0;
         }
 
+        /* GitHub 开源地址 */
+        .github-link {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .github-link img {
+            width: 20px;
+            margin-right: 5px;
+        }
+
         /* 响应式适配 */
         @media screen and (max-width: 600px) {
             .container, .script-info {
@@ -167,6 +184,10 @@
             .script-info {
                 font-size: 13px;
             }
+
+            .github-link {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
@@ -190,6 +211,10 @@
             <li>本脚本所执行命令是无害的，如果你对脚本仍然有疑虑，请不要使用。</li>
         </ul>
     </div>
+
+    <a class="github-link" href="https://github.com/dmbzd/dmbbs" target="_blank">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"> 查看开源项目
+    </a>
 
     <script>
         // 复制命令到剪贴板
